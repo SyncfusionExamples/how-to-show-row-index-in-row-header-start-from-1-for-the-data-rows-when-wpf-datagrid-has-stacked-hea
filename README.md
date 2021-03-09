@@ -1,10 +1,12 @@
 # How to show row index in row header start from 1 for the DataRows when the WPF DataGrid (SfDataGrid) has StackedHeaderRow and SummaryRow?
 
-How to show row index in row header start from 1 for the DataRows when the WPF DataGrid (SfDataGrid) has StackedHeaderRow and SummaryRow?
+How to show row index in row header start from 1 for the DataRows when the [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) has StackedHeaderRow and SummaryRow?
 
 # About the sample
 
-By default, SfDataGrid consider GridSummaryRow and StackedHeaderRow when get the DataRow index. You can neglect these rows by adding converter.
+This sample show cases how to avoid the row index and header while getting the data row index.
+
+[WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) consider the [GridSummaryRow](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridSummaryRow.html) and [StackedHeaderRow](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.StackedHeaderRow.html) while getting the data row index. You can avoid these rows by adding the converter to Text property of TextBlock.
 
 ```Xaml
 <Style TargetType="syncfusion:GridRowHeaderCell">
