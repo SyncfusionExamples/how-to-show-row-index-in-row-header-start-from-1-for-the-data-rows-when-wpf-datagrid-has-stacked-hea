@@ -55,5 +55,8 @@ public class RowIndexValueConverter : IValueConverter
     }
 }
 ```
+
+KB article - [How to show row index in row header start from 1 for the DataRows when the WPF DataGrid (SfDataGrid) has StackedHeaderRow and SummaryRow?](https://www.syncfusion.com/kb/12012/how-to-show-row-index-in-row-header-start-from-1-for-the-datarows-when-the-wpf-datagrid)
+
 ## Requirements to run the demo
  Visual Studio 2015 and above versions
